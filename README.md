@@ -54,10 +54,10 @@ The required python libraries and packages are,
 
 Here they have used Relief and LASSO for feature selection methods
 
-* RELIEF:**
+* **RELIEF:**
 This algorithm calculates feature value differences with nearest neighbor pairs.Later, these feature scores are used as important values for the system. High feature score means high importance.
 
-* LASSO:**
+* **LASSO:**
 LASSO constructs a linear model and penalizes the regression coefficients with L1 distance. Most coefficients are reduced to zero and the remaining inputs are selected.
 
   * Since individual gene counts in microarray data are too many, most informative genes should be selected and used. 
@@ -66,13 +66,14 @@ LASSO constructs a linear model and penalizes the regression coefficients with L
   * For this selection, they have tried Relief and LASSO feature selection methods.
             
 2. Classification Methods
+
 After picking informative genes from microarray data, classification is performed   with 
 
 - Support Vector Machines (SVM)
 - Multilayer Perceptron Networks (MLP) 
 - Random Forest (RF) methods  which are widely used in multiple classification tasks.
 
-* Cross Validation
+3. Cross Validation
 
 Cross-validation is an important step to acquire the validity of results. For small sampled datasets like microarray data, it is convenient to use 
 Leave-one-out Cross Validation (LOOCV) for the task. 
