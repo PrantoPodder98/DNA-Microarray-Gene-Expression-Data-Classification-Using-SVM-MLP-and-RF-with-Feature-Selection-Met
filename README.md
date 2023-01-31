@@ -93,3 +93,21 @@ After the training and tests, the accuracy results are very promising.Here's som
 
 After comparing other methods they came to the conclution that LASSO and SVM are significantly better.The method has proved to be a reliable classification system compared to other approaches.
 
+# Proposed Approach 
+After searching about  some other feature selection methods and classification methods  we have decided to apply this following steps:
+
+* First, we have trained the model without using feature selection methods and see how it’s performance changes.
+* Second, we have applied  another feature extraction method like  PCA. Then we compared the results with LASSO.
+* Thirdly, we have used other classifiers called XGBoost and LightGBM and compared the results with other classifiers like SVM,MLP,RF.
+* Finally, we will compare which feature selection method and classification method performs best together and is it better than this existing method which has been applied in this paper.
+
+# Results
+XGboost takes a bit longer time and LightGBM is significantly faster.And if we consider accuracy then, Lasso with LightGBM accuracy 68% is better than Lasso with  XGboost 67%.MLP takes a bit longer and it’s accuracy is not convincing. 
+
+# Discussions
+* In previous studies, Lasso with SVM performed the best with 99% accuracy.
+* In other studies LightGBM works better for cancer prediction with 88% accuracy.
+* In our study LightGBM accuracy is 68%.
+
+
+
