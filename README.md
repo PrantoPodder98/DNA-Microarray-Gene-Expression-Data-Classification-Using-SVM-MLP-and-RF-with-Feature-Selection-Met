@@ -64,16 +64,32 @@ LASSO constructs a linear model and penalizes the regression coefficients with L
   * If we look at the dataset , then you can see that the feature count is so large. It is necessary to reduce the number of features and remove the unnecessary features.
   * Feature selection is mandatory for these studies.
   * For this selection, they have tried Relief and LASSO feature selection methods.
-            
+        
+        
 2. Classification Methods
 
 After picking informative genes from microarray data, classification is performed   with 
 
-- Support Vector Machines (SVM)
-- Multilayer Perceptron Networks (MLP) 
-- Random Forest (RF) methods  which are widely used in multiple classification tasks.
+* Support Vector Machines (SVM)
+* Multilayer Perceptron Networks (MLP) 
+* Random Forest (RF) methods  which are widely used in multiple classification tasks.
+
 
 3. Cross Validation
 
 Cross-validation is an important step to acquire the validity of results. For small sampled datasets like microarray data, it is convenient to use 
 Leave-one-out Cross Validation (LOOCV) for the task. 
+
+## Methodology
+First the LASSO feature selection method has been applied to get the selected features .The selected alpha parameter for LASSO is 0.0001 .Then, feature count is noted for related datasets.After that, MLP and SVM classifiers have been used to classify and validate the results using LOOCV to calculate the scores.After this step, the Relief feature selection algorithm is used on the datasets to select the most important features.Then the selected features are taken from LASSO to compare their performance. Again, MLP and SVM are used to classify and LOOCV to validate.Lastly, the selected features are used to calculate the accuracy.
+
+## Result
+After the training and tests, the accuracy results are very promising.Here's some comparison.
+
+* MLP training takes a much longer time. SVM is nearly 500 times faster.
+* LASSO feature selection significantly outperforms Relief feature selection.
+* SVM overwhelmingly faster at training, but for accuracy, MLP is slightly better. 
+* Rom Forest’s training time is faster than MLP and slower than SVM, but in terms of accuracy, unfortunately, it was the least successful among classifiers used in this study. 
+
+After comparing other methods they came to the conclution that LASSO and SVM are significantly better.The method has proved to be a reliable classification system compared to other approaches.
+
