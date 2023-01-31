@@ -10,7 +10,7 @@ We used these 22 datasets and applied on different classification. In our study 
 - **Team Members:** [Pranto Podder](https://www.linkedin.com/in/pranto-podder/), [Moumy Kabir](https://www.linkedin.com/in/moumy-kabir-156a0a232/), [Aysha Siddika](https://www.linkedin.com/in/aysha-siddika-577ba5224/), [Tarin Nafisa](https://www.linkedin.com/in/tarin-nafisa-b174031a9/)
 - **Course:** Pattern Recognition Project - B.Sc. in Computer Science and Engineering (CSE)
 - **Project Duration:** Fall 2021 Trimester (Nov 2021 - Jan 2022)
-- **Dataset:** [22 dataset](https://drive.google.com/drive/folders/1_fn0GqGQJAbpqHfLQVDrIeWWSJgIpLmZ?usp=sharing)
+- **Dataset:** [22 datasets](https://drive.google.com/drive/folders/1_fn0GqGQJAbpqHfLQVDrIeWWSJgIpLmZ?usp=sharing)
 
 ## Installing software and files
 To do the project, we need to install some softwares and files. In this regard, we will be doing all the implementations in Python language on jupyter notebook. To install jupyter notebook and launch other application and files at first we have to download Anaconda which is free.
@@ -38,3 +38,11 @@ The required python libraries and packages are,
 - sklearn
 - matplotlib
 - seaborn
+
+## Dataset Understanding
+* Total 22 datasets. Each of them consists of small sample high dimensional DNA microarray input space, e.g- In borovecki(Instances=31, Features=22283, Classes=2. Each dataset is named by their author
+* They used 22 datasets but they didn't combine the datasets here, these were used individually.
+* Most of the datasets are for detecting cancer/healthy samples. 
+* Also, there are cancer/disease classification datasets.
+* In addition to diseases, there are also 3 microarray datasets which are neither disease nor cancer, like aging and environmental effects on DNA.
+
