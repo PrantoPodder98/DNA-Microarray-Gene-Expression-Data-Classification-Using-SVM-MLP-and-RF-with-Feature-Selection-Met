@@ -86,6 +86,8 @@ Leave-one-out Cross Validation (LOOCV) for the task.
 ## Methodology
 First the LASSO feature selection method has been applied to get the selected features .The selected alpha parameter for LASSO is 0.0001 .Then, feature count is noted for related datasets.After that, MLP and SVM classifiers have been used to classify and validate the results using LOOCV to calculate the scores.After this step, the Relief feature selection algorithm is used on the datasets to select the most important features.Then the selected features are taken from LASSO to compare their performance. Again, MLP and SVM are used to classify and LOOCV to validate.Lastly, the selected features are used to calculate the accuracy.
 
+![4](https://user-images.githubusercontent.com/109679342/215897361-416a9ad1-f2ae-4715-9adc-3a45e747ee6d.png)
+
 ## Result Analysis
 After the training and tests, the accuracy results are very promising.Here's some comparison.
 
