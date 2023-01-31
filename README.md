@@ -48,6 +48,9 @@ The required python libraries and packages are,
 * Also, there are cancer/disease classification datasets.
 * In addition to diseases, there are also 3 microarray datasets which are neither disease nor cancer, like aging and environmental effects on DNA.
 
+![Capture1](https://user-images.githubusercontent.com/109679342/215896508-372e25f0-f196-4973-8a4b-254396345d89.PNG)
+
+
 ## State of the Art
 
 1. Feature Selection Methods 
@@ -105,6 +108,8 @@ After searching about  some other feature selection methods and classification m
 * Finally, we will compare which feature selection method and classification method performs best together and is it better than this existing method which has been applied in this paper.
 
 ## Result
+![Capture](https://user-images.githubusercontent.com/109679342/215896578-5bc230be-b7ed-4d91-a764-c1ebf59519f4.PNG)
+
 XGboost takes a bit longer time and LightGBM is significantly faster.And if we consider accuracy then, Lasso with LightGBM accuracy 68% is better than Lasso with  XGboost 67%.MLP takes a bit longer and it’s accuracy is not convincing. 
 
 ## Discussions
