@@ -83,7 +83,7 @@ Leave-one-out Cross Validation (LOOCV) for the task.
 ## Methodology
 First the LASSO feature selection method has been applied to get the selected features .The selected alpha parameter for LASSO is 0.0001 .Then, feature count is noted for related datasets.After that, MLP and SVM classifiers have been used to classify and validate the results using LOOCV to calculate the scores.After this step, the Relief feature selection algorithm is used on the datasets to select the most important features.Then the selected features are taken from LASSO to compare their performance. Again, MLP and SVM are used to classify and LOOCV to validate.Lastly, the selected features are used to calculate the accuracy.
 
-## Result
+## Result Analysis
 After the training and tests, the accuracy results are very promising.Here's some comparison.
 
 * MLP training takes a much longer time. SVM is nearly 500 times faster.
@@ -101,10 +101,10 @@ After searching about  some other feature selection methods and classification m
 * Thirdly, we have used other classifiers called XGBoost and LightGBM and compared the results with other classifiers like SVM,MLP,RF.
 * Finally, we will compare which feature selection method and classification method performs best together and is it better than this existing method which has been applied in this paper.
 
-# Results
+## Result
 XGboost takes a bit longer time and LightGBM is significantly faster.And if we consider accuracy then, Lasso with LightGBM accuracy 68% is better than Lasso with  XGboost 67%.MLP takes a bit longer and it’s accuracy is not convincing. 
 
-# Discussions
+## Discussions
 * In previous studies, Lasso with SVM performed the best with 99% accuracy.
 * In other studies LightGBM works better for cancer prediction with 88% accuracy.
 * In our study LightGBM accuracy is 68%.
