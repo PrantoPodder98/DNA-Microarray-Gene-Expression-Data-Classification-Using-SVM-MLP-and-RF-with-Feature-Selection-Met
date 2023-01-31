@@ -10,7 +10,7 @@ We used these 22 datasets and applied on different classification. In our study 
 - **Team Members:** [Pranto Podder](https://www.linkedin.com/in/pranto-podder/), [Moumy Kabir](https://www.linkedin.com/in/moumy-kabir-156a0a232/), [Aysha Siddika](https://www.linkedin.com/in/aysha-siddika-577ba5224/), [Tarin Nafisa](https://www.linkedin.com/in/tarin-nafisa-b174031a9/)
 - **Course:** Pattern Recognition Project - B.Sc. in Computer Science and Engineering (CSE)
 - **Project Duration:** Fall 2021 Trimester (Nov 2021 - Jan 2022)
-- **Dataset from:** [fedesoriano](https://www.kaggle.com/fedesoriano)
+- **Dataset:** [22 dataset](https://drive.google.com/drive/folders/1_fn0GqGQJAbpqHfLQVDrIeWWSJgIpLmZ?usp=sharing)
 
 ## Installing software and files
 To do the project, we need to install some softwares and files. In this regard, we will be doing all the implementations in Python language on jupyter notebook. To install jupyter notebook and launch other application and files at first we have to download Anaconda which is free.
