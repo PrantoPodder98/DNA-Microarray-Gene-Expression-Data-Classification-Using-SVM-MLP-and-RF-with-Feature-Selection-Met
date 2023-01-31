@@ -50,24 +50,22 @@ The required python libraries and packages are,
 
 ## State of the Art
 
-* Feature Selection Methods 
+1. Feature Selection Methods 
 
 Here they have used Relief and LASSO for feature selection methods
 
-**RELIEF:**
-
+* RELIEF:**
 This algorithm calculates feature value differences with nearest neighbor pairs.Later, these feature scores are used as important values for the system. High feature score means high importance.
 
-**LASSO:**
-
+* LASSO:**
 LASSO constructs a linear model and penalizes the regression coefficients with L1 distance. Most coefficients are reduced to zero and the remaining inputs are selected.
 
   * Since individual gene counts in microarray data are too many, most informative genes should be selected and used. 
-    * If we look at the dataset , then you can see that the feature count is so large. It is necessary to reduce the number of features and remove the unnecessary features.
+  * If we look at the dataset , then you can see that the feature count is so large. It is necessary to reduce the number of features and remove the unnecessary features.
   * Feature selection is mandatory for these studies.
   * For this selection, they have tried Relief and LASSO feature selection methods.
             
-* Classification Methods
+2. Classification Methods
 After picking informative genes from microarray data, classification is performed   with 
 
 - Support Vector Machines (SVM)
