@@ -62,7 +62,7 @@ This algorithm calculates feature value differences with nearest neighbor pairs.
 
 LASSO constructs a linear model and penalizes the regression coefficients with L1 distance. Most coefficients are reduced to zero and the remaining inputs are selected.
 
-- Since individual gene counts in microarray data are too many, most informative genes should be selected and used. 
+** Since individual gene counts in microarray data are too many, most informative genes should be selected and used. 
 - If we look at the dataset , then you can see that the feature count is so large. It is necessary to reduce the number of features and remove the unnecessary features.
 - Feature selection is mandatory for these studies.
 - For this selection, they have tried Relief and LASSO feature selection methods.
