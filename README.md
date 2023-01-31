@@ -93,7 +93,10 @@ After the training and tests, the accuracy results are very promising.Here's som
 
 After comparing other methods they came to the conclution that LASSO and SVM are significantly better.The method has proved to be a reliable classification system compared to other approaches.
 
-# Proposed Approach 
+## Literature Review
+![2](https://user-images.githubusercontent.com/109679342/215896274-6f79d645-a08d-49d0-8134-d400daf5b81d.PNG)
+
+## Proposed Approach 
 After searching about  some other feature selection methods and classification methods  we have decided to apply this following steps:
 
 * First, we have trained the model without using feature selection methods and see how it’s performance changes.
