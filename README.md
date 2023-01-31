@@ -48,7 +48,7 @@ The required python libraries and packages are,
 * Also, there are cancer/disease classification datasets.
 * In addition to diseases, there are also 3 microarray datasets which are neither disease nor cancer, like aging and environmental effects on DNA.
 
-![Capture1](https://user-images.githubusercontent.com/109679342/215896508-372e25f0-f196-4973-8a4b-254396345d89.PNG)
+![Capture1](https://user-images.githubusercontent.com/109679342/215896508-372e25f0-f196-4973-8a4b-254396345d89.PNG width="75%")
 
 
 ## State of the Art
@@ -86,7 +86,7 @@ Leave-one-out Cross Validation (LOOCV) for the task.
 ## Methodology
 First the LASSO feature selection method has been applied to get the selected features .The selected alpha parameter for LASSO is 0.0001 .Then, feature count is noted for related datasets.After that, MLP and SVM classifiers have been used to classify and validate the results using LOOCV to calculate the scores.After this step, the Relief feature selection algorithm is used on the datasets to select the most important features.Then the selected features are taken from LASSO to compare their performance. Again, MLP and SVM are used to classify and LOOCV to validate.Lastly, the selected features are used to calculate the accuracy.
 
-![4](https://user-images.githubusercontent.com/109679342/215897361-416a9ad1-f2ae-4715-9adc-3a45e747ee6d.png)
+![4](https://user-images.githubusercontent.com/109679342/215897361-416a9ad1-f2ae-4715-9adc-3a45e747ee6d.png width="75%")
 
 ## Result Analysis
 After the training and tests, the accuracy results are very promising.Here's some comparison.
@@ -99,7 +99,7 @@ After the training and tests, the accuracy results are very promising.Here's som
 After comparing other methods they came to the conclution that LASSO and SVM are significantly better.The method has proved to be a reliable classification system compared to other approaches.
 
 ## Literature Review
-![2](https://user-images.githubusercontent.com/109679342/215896274-6f79d645-a08d-49d0-8134-d400daf5b81d.PNG)
+![2](https://user-images.githubusercontent.com/109679342/215896274-6f79d645-a08d-49d0-8134-d400daf5b81d.PNG width="75%")
 
 ## Proposed Approach 
 After searching about  some other feature selection methods and classification methods  we have decided to apply this following steps:
@@ -110,7 +110,7 @@ After searching about  some other feature selection methods and classification m
 * Finally, we will compare which feature selection method and classification method performs best together and is it better than this existing method which has been applied in this paper.
 
 ## Result
-![Capture](https://user-images.githubusercontent.com/109679342/215896578-5bc230be-b7ed-4d91-a764-c1ebf59519f4.PNG)
+![Capture](https://user-images.githubusercontent.com/109679342/215896578-5bc230be-b7ed-4d91-a764-c1ebf59519f4.PNG width="75%")
 
 XGboost takes a bit longer time and LightGBM is significantly faster.And if we consider accuracy then, Lasso with LightGBM accuracy 68% is better than Lasso with  XGboost 67%.MLP takes a bit longer and it’s accuracy is not convincing. 
 
